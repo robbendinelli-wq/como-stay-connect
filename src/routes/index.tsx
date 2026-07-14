@@ -383,9 +383,9 @@ function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-5 py-10 text-sm text-muted-foreground sm:flex-row">
         <div className="flex items-center gap-2">
           <Building2 className="h-5 w-5 text-accent" />
-          <span className="font-display text-lg font-semibold text-foreground">Lario Affitti Brevi</span>
+          <span className="font-display text-lg font-semibold text-foreground">Como Property Care</span>
         </div>
-        <p>© {new Date().getFullYear()} Lario Affitti Brevi · Como, Lago di Como</p>
+        <p>© {new Date().getFullYear()} Como Property Care · Como, Lago di Como</p>
       </div>
     </footer>
   );
