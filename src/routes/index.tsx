@@ -302,7 +302,7 @@ function Contact() {
           </p>
           <div className="mt-8 space-y-4 text-sm">
             <p className="flex items-center gap-3 text-foreground/90">
-              <Mail className="h-5 w-5 text-accent" /> info@larioaffittibrevi.it
+              <Mail className="h-5 w-5 text-accent" /> info@comopropertycare.it
             </p>
             <p className="flex items-center gap-3 text-foreground/90">
               <Phone className="h-5 w-5 text-accent" /> +39 000 000 0000
