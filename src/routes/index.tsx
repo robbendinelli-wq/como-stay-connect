@@ -22,18 +22,18 @@ import { submitContact } from "@/lib/contact.functions";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Affitti Brevi Como | Consulenza e Gestione Immobili sul Lago" },
+      { title: "Como Property Care | Gestione Affitti Brevi sul Lago di Como" },
       {
         name: "description",
         content:
-          "Gestione professionale di affitti brevi a Como e sul Lago. Consulenza, ottimizzazione annunci e gestione completa del tuo immobile. Contattaci per una valutazione gratuita.",
+          "Gestione professionale di affitti brevi a Como e sul Lago di Como. Consulenza, ottimizzazione annunci e property management del tuo immobile. Contattaci per una valutazione gratuita.",
       },
       { name: "keywords", content: "affitti brevi Como, gestione immobili Como, property management Lago di Como, affitti turistici Como" },
-      { property: "og:title", content: "Affitti Brevi Como | Consulenza e Gestione Immobili" },
+      { property: "og:title", content: "Como Property Care | Gestione Affitti Brevi sul Lago di Como" },
       {
         property: "og:description",
         content:
-          "Gestione professionale di affitti brevi a Como e sul Lago. Contattaci per una valutazione gratuita del tuo immobile.",
+          "Gestione professionale di affitti brevi a Como e sul Lago di Como. Contattaci per una valutazione gratuita del tuo immobile.",
       },
       { property: "og:type", content: "website" },
       { property: "og:image", content: heroComo },
