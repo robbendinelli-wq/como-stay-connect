@@ -93,7 +93,7 @@ function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
         <a href="#top" className="flex items-center gap-2">
           <Building2 className="h-6 w-6 text-accent" />
-          <span className="font-display text-2xl font-semibold tracking-tight">Lario Affitti Brevi</span>
+          <span className="font-display text-2xl font-semibold tracking-tight">Como Property Care</span>
         </a>
         <nav className="hidden items-center gap-8 text-sm font-medium text-muted-foreground md:flex">
           <a href="#servizi" className="transition-colors hover:text-foreground">Servizi</a>
