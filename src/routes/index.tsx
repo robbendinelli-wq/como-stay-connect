@@ -22,18 +22,18 @@ import { submitContact } from "@/lib/contact.functions";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Affitti Brevi Como | Consulenza e Gestione Immobili sul Lago" },
+      { title: "Como Property Care | Gestione Affitti Brevi sul Lago di Como" },
       {
         name: "description",
         content:
-          "Gestione professionale di affitti brevi a Como e sul Lago. Consulenza, ottimizzazione annunci e gestione completa del tuo immobile. Contattaci per una valutazione gratuita.",
+          "Gestione professionale di affitti brevi a Como e sul Lago di Como. Consulenza, ottimizzazione annunci e property management del tuo immobile. Contattaci per una valutazione gratuita.",
       },
       { name: "keywords", content: "affitti brevi Como, gestione immobili Como, property management Lago di Como, affitti turistici Como" },
-      { property: "og:title", content: "Affitti Brevi Como | Consulenza e Gestione Immobili" },
+      { property: "og:title", content: "Como Property Care | Gestione Affitti Brevi sul Lago di Como" },
       {
         property: "og:description",
         content:
-          "Gestione professionale di affitti brevi a Como e sul Lago. Contattaci per una valutazione gratuita del tuo immobile.",
+          "Gestione professionale di affitti brevi a Como e sul Lago di Como. Contattaci per una valutazione gratuita del tuo immobile.",
       },
       { property: "og:type", content: "website" },
       { property: "og:image", content: heroComo },
@@ -93,7 +93,7 @@ function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
         <a href="#top" className="flex items-center gap-2">
           <Building2 className="h-6 w-6 text-accent" />
-          <span className="font-display text-2xl font-semibold tracking-tight">Lario Affitti Brevi</span>
+          <span className="font-display text-2xl font-semibold tracking-tight">Como Property Care</span>
         </a>
         <nav className="hidden items-center gap-8 text-sm font-medium text-muted-foreground md:flex">
           <a href="#servizi" className="transition-colors hover:text-foreground">Servizi</a>
@@ -302,7 +302,7 @@ function Contact() {
           </p>
           <div className="mt-8 space-y-4 text-sm">
             <p className="flex items-center gap-3 text-foreground/90">
-              <Mail className="h-5 w-5 text-accent" /> info@larioaffittibrevi.it
+              <Mail className="h-5 w-5 text-accent" /> info@comopropertycare.it
             </p>
             <p className="flex items-center gap-3 text-foreground/90">
               <Phone className="h-5 w-5 text-accent" /> +39 000 000 0000
@@ -383,9 +383,9 @@ function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-5 py-10 text-sm text-muted-foreground sm:flex-row">
         <div className="flex items-center gap-2">
           <Building2 className="h-5 w-5 text-accent" />
-          <span className="font-display text-lg font-semibold text-foreground">Lario Affitti Brevi</span>
+          <span className="font-display text-lg font-semibold text-foreground">Como Property Care</span>
         </div>
-        <p>© {new Date().getFullYear()} Lario Affitti Brevi · Como, Lago di Como</p>
+        <p>© {new Date().getFullYear()} Como Property Care · Como, Lago di Como</p>
       </div>
     </footer>
   );
